@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://task-application.domkul.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://task-application.domkul.repl.co/v1/trello;
+  const apiRoot = 'https://Task-Application.domkul.repl.co/v1/tasks';
+  const trelloApiRoot = 'https://Task-Application.domkul.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
