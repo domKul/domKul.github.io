@@ -15,7 +15,7 @@ $(document).ready(function() {
     var requestUrl = trelloApiRoot + '/boards';
 
     $.ajax({
-      url: requestUrl,
+      url: https://task-application.domkul.repl.co/v1/tasks/getTasks,
       method: 'GET',
       contentType: 'application/json',
       success: function(boards) { callback(callbackArgs, boards); }
